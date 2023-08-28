@@ -1,0 +1,69 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Autorepo",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#09090b",
+    "light": "#ffffff",
+    "dark": "#09090b",
+    "background": {
+      "dark": "#27272a"
+    },
+    "anchors": {
+      "from": "#737373",
+      "to": "#27272a"
+    }
+  },
+  "topbarLinks": [{
+    "name": "Install",
+    "url": "https://github.com/apps/autorepoapp"
+  }, {
+    "name": "Support",
+    "url": "mailto:hello@autorepo.io"
+  }],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://app.autorepo.io"
+  },
+  "tabs": [],
+  "anchors": [{
+    "name": "Issues",
+    "icon": "github",
+    "url": "https://github.com/AutosseyAI/issues"
+  }],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "get-started/introduction",
+        "get-started/installing"
+      ]
+    },
+    {
+      "group": "How It Works",
+      "pages": [
+        "features/autorefine",
+        "features/autoplan",
+        "features/autocode",
+        "features/autocheck"
+      ]
+    },
+    {
+      "group": "Resources",
+      "pages": [
+        "resources/faq",
+        "resources/limitations",
+        "resources/pricing"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/autosseyai",
+    "github": "https://github.com/AutosseyAI",
+    "linkedin": "https://www.linkedin.com/company/autosseyai"
+  }
+}
