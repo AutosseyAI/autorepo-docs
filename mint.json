@@ -20,7 +20,7 @@
   },
   "topbarLinks": [{
     "name": "Install",
-    "url": "https://github.com/apps/autorepoapp"
+    "url": "https://github.com/apps/autorepoapp/installations/new"
   }, {
     "name": "Support",
     "url": "mailto:hello@autorepo.io"
