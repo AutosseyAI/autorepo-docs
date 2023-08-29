@@ -31,6 +31,10 @@
   },
   "tabs": [],
   "anchors": [{
+    "name": "Home",
+    "icon": "house",
+    "url": "https://autorepo.io"
+  },{
     "name": "Issues",
     "icon": "github",
     "url": "https://github.com/AutosseyAI/issues"
