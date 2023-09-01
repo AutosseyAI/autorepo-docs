@@ -52,7 +52,7 @@
       "pages": [
         "features/autorefine",
         "features/autoplan",
-        "features/autocode",
+        "features/autopr",
         "features/autocheck"
       ]
     },
