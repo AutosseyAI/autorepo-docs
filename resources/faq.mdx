@@ -7,7 +7,16 @@ description: 'Frequently Asked Questions'
   <Accordion icon="folder-open" title="Does Autorepo work in empty repositories?">
     Yes.
   </Accordion>
+  <Accordion icon="folder-open" title="Can I install Autorepo in public repositories?">
+    Yes. Autorepo will only run tasks if a [collaborator](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) adds the `auto` label to an issue.
+  </Accordion>
+  <Accordion icon="folder-open" title="Can I install Autorepo in private repositories?">
+    Yes.
+  </Accordion>
   <Accordion icon="code" title="Do you store my code?">
     Autorepo stores high-level summaries and [embeddings](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings) of you code, but does not store code itself at this time.
+  </Accordion>
+  <Accordion icon="code" title="How does Autorepo access my code?">
+    Autorepo clones your repository in a fully isolated environment. After a task is completed, the environment is destroyed.
   </Accordion>
 </AccordionGroup>
