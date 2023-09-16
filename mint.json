@@ -44,7 +44,9 @@
       "group": "Get Started",
       "pages": [
         "get-started/introduction",
-        "get-started/installing"
+        "get-started/installing",
+        "get-started/anatomy",
+        "get-started/pricing"
       ]
     },
     {
@@ -61,7 +63,7 @@
       "pages": [
         "resources/faq",
         "resources/limitations",
-        "resources/pricing"
+        "resources/contact"
       ]
     }
   ],

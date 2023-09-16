@@ -1,0 +1,65 @@
+---
+title: 'The Anatomy of an Issue'
+---
+
+## Marked as Seen
+
+When Autorepo detects a new comment, it will react with the eyes emoji (👀) to confirm it has seen the comment.
+
+<Frame>
+  <img src="/images/eyes.png" />
+</Frame>
+
+## "Autorepo is Thinking" Banner
+
+Next, Autorepo will reply with an animated placeholder banner to let you know that it is in the process of responding to the issue, or to your latest comment:
+
+_**Autorepo is thinking...**_
+
+![Autorepo Thinking](https://svg-banners.vercel.app/api?type=luminance&text1=🧠&width=800&height=150)
+
+On the first issue in a new repo or after change have been made, Autorepo may also include a message before this banner letting you know that it will need to read through the code to catch up on any changes that have been made.
+
+Autorepo will continue to update this placeholder comment with more information as it works. Once the animated _**"Autorepo is thinking..."**_ banner is removed, you will know that Autorepo has completed its work, and is ready to respond to follow up comments.
+
+<Warning>When the _**"Autorepo is thinking..."**_ banner is visible, Autorepo is unable to respond to new comments.</Warning>
+
+## Task Comment
+
+Autorepo may create a Task Comment if it starts working on a longer task, such as performing in-depth research or creating a plan for how to complete an issue.
+
+### Status Header
+
+Task Comments will have a status header at the top, letting you know the progress of the task:
+
+<Frame>
+  <img src="/images/status.png" />
+</Frame>
+
+### Task title
+
+In Task Comments, under the Status Header is the title of the task. The title starts with an emoji to indicate the type of task:
+
+#### 🔬 Research Task Title
+
+- [🔗 "Cloud Run Research" Example](/features/autorefine#3-autorepo-does-research)
+
+#### 📋 Planning Task Title
+
+- [🔗 "Next.js Setup" Example](/features/autoplan#3-autorepo-creates-a-plan)
+
+#### 🔨 Coding Task Title
+
+- _Coming Soon_
+
+#### 🧪 Verification Task Title
+
+- _Coming Soon_
+
+## Free Tier Footer
+
+Finally, if your account does not have a payment source connected, Autorepo will include a footer at the bottom of each comment, with a notice that the free tier of Autorepo is more prone to making mistakes:
+
+<Frame>
+  <img src="/images/free-tier.png" />
+</Frame>

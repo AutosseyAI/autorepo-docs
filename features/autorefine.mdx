@@ -4,4 +4,26 @@ description: 'Automatically refine issues by adding context from the codebase, o
 icon: microscope
 ---
 
-<Note>Coming Soon</Note>
+Autorepo can perform research within your codebase and across the web to add additional context to issues.
+
+## 1. Create an Issue
+
+Create a new issue in a repo that you have [connected with Autorepo](/installing). Give the issue a title and body explaining the change you want to make.
+
+Providing more details will help Autorepo create a better plan, but a detailed body is not required. If Autorepo needs clarification, it will make a comment asking for more information.
+
+## 2. Add the `auto` label
+
+When Autorepo detects an issue with the `auto` label, it will react with the [eyes emoji 👀](/get-started/anatomy#marked-as-seen), and comment with a [placeholder comment 🧠](/get-started/anatomy#autorepo-is-thinking-banner) to let you know it is typing a response.
+
+<Note>
+  Autorepo will only run tasks if a [collaborator](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) adds the `auto` label.
+</Note>
+
+## 3. Autorepo Does Research
+
+Autorepo will respond with clarifying questions as necessary. Once Autorepo understands the issue, it create a [Task Comment](/get-started/anatomy#task-comment), and begin doing research. Once it is done, it will update the [Task Comment](/get-started/anatomy#task-comment) with a report.
+
+<Frame>
+  <img src="/images/research.png" />
+</Frame>
